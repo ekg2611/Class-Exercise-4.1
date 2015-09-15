@@ -1,0 +1,9 @@
+hotbeacon
+hotbeaconid%3Da99bcdea96cc88c7e64d1b3e86f94f87
+cumulus-cloud.com/
+2147484672
+4277512576
+30535944
+3473530560
+30466095
+*

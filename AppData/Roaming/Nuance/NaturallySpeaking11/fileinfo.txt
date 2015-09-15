@@ -1,0 +1,157 @@
+f112b10,1d07eb8,1,1,5,82,7601,18837,0,1033,0,,,C:\Windows\system32\comctl32.dll
+9af9647e,1cb892b,1,1,5,31,23,1230,0,0,39,,Microsoft RichEdit Control, version 3.1,C:\Windows\system32\riched20.dll
+9af9647e,1cb892b,1,1,6,1,7601,17514,0,1033,0,,,C:\Windows\system32\riched32.dll
+831fbadf,1cb892b,1,1,6,1,7601,17514,0,1033,0,,,C:\Windows\system32\comdlg32.dll
+962398ef,1cb892b,1,1,6,1,7601,17514,0,1033,0,,,C:\Windows\system32\user32.dll
+7cb10600,1cc6471,1,1,7,0,0,0,0,0,36,,Microsoft® Windows® Operating System,C:\Windows\system32\oleacc.dll
+843bd900,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\adminsvr.dll
+23ac9c00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10rdeu.dll
+260ef600,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10renx.dll
+4c5a5400,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10resp.dll
+27402300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10rfra.dll
+4ebcae00,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10rita.dll
+4feddb00,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\au10rnld.dll
+28715000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\audiowiz.dll
+80a85200,1cc4850,1,1,21,0,0,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\cpres.dll
+29a27d00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\ctxaudio.dll
+2ad3aa00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10axa.dll
+71290900,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10axa_x64.dll
+2c04d700,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10edit.dll
+856d0600,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10enum.dll
+869e3300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10gldt.dll
+2d360400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10hook.dll
+725a3600,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10hook_x64.dll
+2e673100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10midl.dll
+738b6300,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10midl_x64.dll
+24bb000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10oem.dll
+31fab800,1cc4850,1,1,11,50,100,92,0,1031,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rdeu.dll
+75edbd00,1cc4850,1,1,11,50,100,92,0,1031,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rdeu_x64.dll
+332be500,1cc4850,1,1,11,50,100,92,0,9,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10renx.dll
+771eea00,1cc4850,1,1,11,50,100,92,0,9,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10renx_x64.dll
+6431d800,1cb2a8b,1,1,11,0,200,49,0,1034,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10resp.dll
+ace99100,1cb2a8b,1,1,11,0,200,49,0,1034,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10resp_x64.dll
+345d1200,1cc4850,1,1,11,50,100,92,0,1036,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rfra.dll
+78501700,1cc4850,1,1,11,50,100,92,0,1036,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rfra_x64.dll
+6a27b900,1cb2a8b,1,1,11,0,200,49,0,1040,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rita.dll
+b1ae4500,1cb2a8b,1,1,11,0,200,49,0,1040,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rita_x64.dll
+6dbb4000,1cb2a8b,1,1,11,0,200,49,0,1043,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rnld.dll
+b541cc00,1cb2a8b,1,1,11,0,200,49,0,1043,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10rnld_x64.dll
+358e3f00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10sapi.dll
+36bf6c00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10scrp.dll
+37f09900,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10shrd.dll
+79814400,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10shrd_x64.dll
+87cf6000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10slme.dll
+3921c600,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10srvr.dll
+3a52f300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dd10trob.dll
+3b842000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgncomp.dll
+89008d00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgncompmngr.dll
+7ab27100,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgncomp_x64.dll
+8a31ba00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnexcel.dll
+a46b9800,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnexcel_x64.dll
+b1888700,1cc4850,1,1,11,50,100,92,0,0,24,,Dragon NaturallySpeaking,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnfacebook.dll
+8b62e700,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgniedct.dll
+a59cc500,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgniedct_x64.dll
+8dc54100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds.dll
+3de67a00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_deu.dll
+3f17a700,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_enx.dll
+4048d400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_esp.dll
+417a0100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_fra.dll
+42ab2e00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_ita.dll
+43dc5b00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnmycmds_nld.dll
+8ef66e00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnnlut.dll
+450d8800,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnoowriter.dll
+90279b00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnoutlook.dll
+a6cdf200,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnoutlook_x64.dll
+463eb500,1cc4850,1,1,11,50,100,92,0,0,24,,Dragon NaturallySpeaking,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnspservicelib.dll
+48a10f00,1cc4850,1,1,11,50,100,92,0,0,24,,Dragon NaturallySpeaking,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgntwitter.dll
+9158c800,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnutils.dll
+9289f500,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnword.dll
+a7ff1f00,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnword_x64.dll
+93bb2200,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dgnwp9.dll
+94ec4f00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dictbox.dll
+961d7c00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dnstk10.dll
+a9304c00,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dnstk10_x64.dll
+49d23c00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\efenrolldll.dll
+b862ca00,1cc484f,1,1,5,0,9,0,0,0,15,,Facebook C# SDK,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\facebook.dll
+4b036900,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\gentrain.dll
+b862ca00,1cc484f,1,1,1,0,0,0,0,0,7,,Hammock,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\hammock.clientprofile.dll
+4c349600,1cc4850,1,1,1,0,0,0,0,127,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\Interop.DNSSDK.dll
+b862ca00,1cc484f,1,1,8,0,3230,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\ipworks8.dll
+b862ca00,1cc484f,1,1,8,0,3230,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\ipworksssl8.dll
+81d97f00,1cc4850,1,1,2,13,0,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\lhcom02w.dll
+830aac00,1cc4850,1,1,2,23,0,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\lhsp01.dll
+4d65c300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\macroutl.dll
+4e96f000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\mergedvc.dll
+b862ca00,1cc484f,1,1,1,0,0,0,0,0,14,,Code Contracts,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\microsoft.contracts.dll
+50f94a00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\mobile.dll
+7be39e00,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\mobile_x64.dll
+522a7700,1cc4850,1,1,1,18,100,12965,5,0,4,inmss,MREC,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\mrec.dll
+974ea900,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\msoe_agent.dll
+b862ca00,1cc484f,1,1,4,0,0,0,0,0,19,,Newtonsoft Json.NET,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\newtonsoft.json.net35.dll
+99b10300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nlutmgr.dll
+535ba400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nlutmgrhook.dll
+7d14cb00,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nlutmgrhook_x64.dll
+9ae23000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\notes_agent.dll
+548cd100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse_deu.dll
+81ff3d00,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse_esp.dll
+55bdfe00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse_fra.dll
+83306a00,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse_ita.dll
+84619700,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse_nld.dll
+9c135d00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nstex50.dll
+56ef2b00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\oemdvr.dll
+9d448a00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\outlook_agent.dll
+b4cf4300,1cc484f,1,1,120,0,0,0,0,0,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\pipeline.dll
+58205800,1cc4850,0,0,0,0,0,0,0,0,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\powermic2.dll
+b4cf4300,1cc484f,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\rsstdv2.dll
+b6007000,1cc484f,1,1,7,3,0,76,0,9,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\sas7_000.dll
+59518500,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_deu.dll
+5a82b200,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_enx.dll
+89264b00,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_esp.dll
+5ce50c00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_fra.dll
+8a577800,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_ita.dll
+8b88a500,1cb2a8b,1,1,11,0,200,49,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr_nld.dll
+9e75b700,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\scripting.dll
+5e163900,1cc4850,1,1,11,50,0,88,5,0,2,inmsr,S2,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\server.dll
+5f476600,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\speechtools.dll
+b6007000,1cc484f,1,1,5,0,1,0,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\stlport.5.0.dll
+60789300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\teedit.dll
+61a9c000,1cc4850,1,1,11,0,0,8,5,0,9,inmsr,Tokenizer,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\tokenizer.dll
+b862ca00,1cc484f,1,1,1,0,0,0,0,0,10,,TweetSharp,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\tweetsharp.dll
+62daed00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\txtext.dll
+640c1a00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\upgrdll.dll
+653d4700,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\vcmigrat.dll
+666e7400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\vddns.dll
+9fa6e400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\voctools.dll
+679fa100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\wav.dll
+6a01fb00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\wavconvert.dll
+7e45f800,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\wav_x64.dll
+a0d81100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\wbproxy.dll
+a2093e00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\web_ie.dll
+aa617900,1cc4850,1,1,11,50,100,92,3,0,25,lcr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\web_ie_x64.dll
+b993f700,1cc484f,1,1,4,5,3276,1,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\wfapi.dll
+6b332800,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\winclass.dll
+7106400,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\assistant.exe
+8419100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\audio.exe
+972be00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\ctfmngr.exe
+aa3eb00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\datacollector.exe
+bd51800,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dnsspregister.exe
+d064500,1cc4850,1,1,11,50,100,92,0,0,24,,Dragon NaturallySpeaking,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\dnsspserver.exe
+f689f00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\formfiller.exe
+1099cc00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\mergemycmds.exe
+11caf900,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\modmerge.exe
+142d5300,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\natlink.exe
+b4be5020,1cf7a70,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\NatSpeak.exe
+155e8000,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsadmin.exe
+168fad00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsadminw.exe
+17c0da00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\nsbrowse.exe
+1b546100,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\savewave.exe
+1c858e00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\schedmgr.exe
+1db6bb00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\tagent.exe
+1ee7e800,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\tutorial8.exe
+20191500,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\twovermsg.exe
+214a4200,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\upgrade.exe
+48c6cd00,1cb2a8b,1,1,16,0,0,328,0,1033,0,,,C:\Program Files (x86)\Nuance\NaturallySpeaking11\Program\vddnspatch.exe
+6f6ab800,1be3e60,1,1,4,0,4,2512,0,1033,0,,,C:\Windows\speech\speech.dll
+18181800,1be3e5f,1,1,4,0,4,2512,0,1033,0,,,C:\Windows\speech\vcmd.exe
+6f6ab800,1be3e60,1,1,4,0,4,2512,0,1033,0,,,C:\Windows\speech\vcmshl.dll
+9c135d00,1cc4850,1,1,11,50,100,92,3,0,25,scr,Dragon NaturallySpeaking ,C:\PROGRA~2\Nuance\NATURA~1\Program\nstex50.dll

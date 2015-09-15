@@ -1,0 +1,14 @@
+The Visual Basic program that this was derived from uses a CSV file for the
+journal store.  Thus, the .fif files are human readable and can easily be
+worked with.
+
+Before the fif file is loaded, however, a MS Access database is created by the
+VB application.  The database will be put into a \temp directory within the
+application install directory.  The default password is 'yoda'.
+
+Both the Accounts and the Funds were exported from MS Access in XML format,
+after which the XML files were converted to a slightly more condensed format
+using AccountsTransform.xsl and FundsTransform.xsl which are provided in this
+directory.
+
+

@@ -1,0 +1,9 @@
+ReadSpeakerSettings
+enlarge=enlargeoff
+www.aljazeera.com/
+1600
+4256202624
+30468481
+3438900627
+30467643
+*

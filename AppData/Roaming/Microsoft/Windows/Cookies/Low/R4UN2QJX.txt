@@ -1,0 +1,9 @@
+vortex_campaign
+[object Object]
+signup.thrillist.com/campaigns/iframe/
+1600
+1509876608
+30469052
+93410120
+30468650
+*

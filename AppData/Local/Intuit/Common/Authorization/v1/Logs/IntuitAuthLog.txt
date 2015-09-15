@@ -1,0 +1,88 @@
+TurboTax	PID(7044)	TID(1)	2014.11.24.612	5/12/15 11:44:10:225 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(7044)	TID(1)	2014.11.24.612	5/12/15 11:44:10:288 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(5580)	TID(1)	2014.11.24.612	5/14/15 9:15:14:139 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(5580)	TID(1)	2014.11.24.612	5/14/15 9:15:14:482 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(9044)	TID(1)	2014.11.24.612	5/14/15 11:50:20:512 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(9044)	TID(1)	2014.11.24.612	5/14/15 11:50:20:682 AM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(4652)	TID(1)	2014.11.24.612	5/14/15 2:12:17:374 PM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"
+TurboTax	PID(4652)	TID(1)	2014.11.24.612	5/14/15 2:12:17:394 PM	ERROR	Intuit.Spc.Authorization.AuthorizationClient	"Intuit.Spc.Authorization.NetworkCommunicationException: Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An attempt was made to access a socket in a way forbidden by its access permissions 199.187.156.28:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadData(Uri address, String method, Byte[] data)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()
+   --- End of inner exception stack trace ---
+   at Intuit.Spc.Authorization.Internal.Transactions.HttpTransaction.HandleResponseError(Exception exception)
+   at Intuit.Spc.Authorization.Internal.Transactions.ActivateClient.ActivateClientTransaction.HandleResponse(Exception exception)
+   at Intuit.Spc.Authorization.AuthorizationClient.Activate()"

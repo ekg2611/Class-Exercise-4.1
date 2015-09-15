@@ -1,0 +1,89 @@
+MAJESTIC CHESS ADVENTURE LOG 1.3.0.5
+
+version 6.1 (Build 7601)
+Service Pack 1.0
+Service Pack 1 (Build 7601)
+
+DirectX Version = DirectX 8.1 or better installed
+
+
+[UPDATESCALE]
+description = update scale on display init 
+screen H = 1024
+Screen W = 768
+clientarea w = 1024 h = 768 
+[D3DADAPTER_DEFAULT]
+Width = 1920
+Height = 1080
+RefreshRate = 60
+Format = 22
+[D3D Adapter]
+Description: AMD RADEON HD 6450
+Driver: aticfx32.dll
+
+[D3DPRESENT_PARAMETERS]
+D3DSWAPEFFECT_DISCARD = 1
+BackBufferWidth = 1024
+BackBufferHeight = 768
+BackBufferFormat = 22
+BackBufferCount = 1
+MultiSampleType = 0
+Windowed = 0
+FullScreen_RefreshRateInHz = 0
+FullScreen_PresentationInterval = 0
+
+[IsCompressedTextureFormatOk]
+ D3DFMT_DXT1 = 1 
+ D3DFMT_DXT5 = 1
+
+[D3DCAPS8]
+DeviceType = 1
+
+[Hardware Shaders]
+Pixel Shader Version: 1.4
+Vertex Shader Version: 1.1
+
+Pure hardware texture & lighting
+
+[Available_Texture_Mem]
+ 3992977408 bytes 
+file = C:\DEV\FS0023-FLUENT CHESS\FLUENTCHESS\pc\ChessAdv\DX8\DX8Vars.cpp
+line = 798
+
+Back Buffer depth = 32
+Z Buffer depth = 24
+Stencil Buffer depth = 8
+
+[Perspective Transform]
+FOV = 0.393000
+Aspect = 1.333333
+Near Z = 1.000000
+Far Z = 5000000.000000
+
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1
+[Error]
+description = CWinboard::HandleError()
+uErrorValue = 1

@@ -1,0 +1,9 @@
+user.store
+%7B%22Username%22%3A%22wgrammer%40aol.com%22%2C%22InteropID%22%3Anull%2C%22FirstName%22%3A%22William%22%2C%22LastName%22%3A%22Grammer%22%2C%22Email%22%3A%22wgrammer%40aol.com%22%2C%22Auth%22%3A%22451%20brUIcteGOf%2BQVtHEUOrJRIdOOm%2F96W8yFj3yCBhQU1toHPUDHFcBYOOYFeVU8PhSpsNWJ5cGQToQAhWGfvqGIKzuWe6R%2F0Zbhpe%2FKFVLc9GiyvYRLJfEbLgW2FLHRtgJxnoz02LeiU4gP%2BItnXp%2FabICyfJKpdOCzX%2F6gN8V2Vs%3D%22%7D
+store.artofmanliness.com/store/
+1600
+4012035072
+30469118
+3309845142
+30468917
+*

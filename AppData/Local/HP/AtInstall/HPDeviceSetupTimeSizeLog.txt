@@ -1,0 +1,33 @@
+
+
+Name	Size (KB)	Time (s)
+Searching for devices		10
+Searching for devices		15
+Installing device		6
+Fax Setup		125
+Scan App		0
+Web Reg		585
+Direct Print		6
+Post Install Total		724
+## Subtract the Post Install Total from the total time to get the time to get to Finish screen.
+Total		1336
+## Wait Time is calculated by subtracting the amount of time for each item from the total time.
+
+Name	Size (KB)	Time (s)
+Searching for devices		10
+Wirelessly setting up device		6
+Searching for devices		10
+Searching for devices		11
+Searching by IP and installing		0
+Searching by IP and installing		0
+Searching by IP and installing		0
+Searching by IP and installing		6
+Post Install: EPrint Setup		48
+Post Install Total		50
+## Subtract the Post Install Total from the total time to get the time to get to Finish screen.
+Post Install: Fax Setup		27
+Post Install: Usage Tracking		8
+Post Install: Scan Activation		0
+Post Install: Toolbox Setup		7
+Total		1373
+## Wait Time is calculated by subtracting the amount of time for each item from the total time.

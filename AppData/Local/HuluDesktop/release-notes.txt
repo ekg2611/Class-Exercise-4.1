@@ -1,0 +1,25 @@
+Version 0.6.4
+-------------
+- Added Hulu.png (256x256 logo image) to install package
+- Added release-notes.txt to install package
+
+Version 0.6.5
+-------------
+- Added retry logic to SWF validation
+
+Version 0.6.6
+-------------
+- Remove Flash 10 binary from install
+
+Version 0.6.7
+-------------
+- Update test build
+
+Version 0.6.8
+-------------
+- Add close button to restart dialog after update
+
+Version 0.9.1
+-------------
+- Remove all sanitization
+- Integrate bug fixes from trunk

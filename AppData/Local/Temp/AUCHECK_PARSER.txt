@@ -1,0 +1,2 @@
+[Sun Jan 18 08:49:13 2015] debug  : Read the file "C:\ProgramData\Sun\\Java\\Java Update\jaureglist.xml" into buffer
+[Sun Jan 18 08:49:13 2015] debug  : Reached the end of the file

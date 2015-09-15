@@ -1,0 +1,55 @@
+Export FlashcardsQuestionAnswerHint
+      What are the 4 components of a case definition? 1)Clinical information on 
+      the disease 2)Characteristics of the people affected 3)Information about 
+      location or place 4)Time during whihc an outbreak occured Use an acronym! 
+      Think CCIT
+      What are the 5 components of Public Health Surveillance? 1)Ongoing 
+      collection of data 2)Interpretation of data 3)Analysis 4)Dissemination of 
+      data (spread the word) 5)Action linked to the health/risk factor Think 
+      acronyms again! OIADA
+      What are the 2 triads of analysis person/place/time agent/host/environment 
+      PPT and AHE triads are triangles, draw it out if you're a visual learner.
+      What are the 5 most common causes of the common cold? 1)rhinovirus 
+      2)coronavirus 3)adenovirus 4)influenza C virus 5)coxsackievirus make up a 
+      story: The rhino with the cold had swollen adenoids (tonsil like 
+      structures in the throat) and drank a corona beer then he got the flu and 
+      a C on his report card and got the sack at his job.
+      Define a cohort study and list some pros/cons Compares 2 groups; One group 
+      is exposed to another group that is unexposed or has a different level of 
+      exposure. it is followed over time to determine differences in outcome. 
+      pros: reduces some forms of bias and controls confounders cons: cannot 
+      distinguish causality from correlation, expernsive, lengthy, and possible 
+      bias due to multiple measures. Think bias and expense
+      Define a cross sectional study and list some pros/cons A cross sectional 
+      study is used to assess acute or chronic conditions in a population. It 
+      determines prevalence. A disease and exposure status are examined at the 
+      same time. pros: quick, cheap, allows collecting of multiple covarients 
+      cons: cannot assess causality, confounding, and bias Think disease and 
+      exposure status
+      Define a case-control study and list some pros/cons The study is usually 
+      conducted by small research teams and involves identifying the outcome 
+      first and then choosing different risk factors to explore. Groups of cases 
+      are chosen by using medical records or interviews. Controls are then 
+      selected. pros: cheap cons: no indication of absolute risk, confounding 
+      Think cost and risk factors
+      What insect vectors malaria to people? Anopheles mosquito it's a 
+      bloodsucker
+      How was the bubonic plague spread? rodents to fleas to people Think 
+      transmission pathway
+      How is Yellow Fever/Dengue Fever spread? from a human, bird, or monkey 
+      resovoir to a mosquito to people think resovoirs. Fun Fact: This was a 
+      major problem during the construction of the Panama Canal
+      How is Lyme Disease spread? mice to ixodes tick to people Many hunters and 
+      campers catch this disease if they don't wear insect repellant and long 
+      pants.
+      How is African Sleeping Sickness spread? resovoir in animals or people to 
+      tse tse fly to people Causes the deaths of many people in Africa each 
+      year, and is getting worse with global warming since it aids the breeding 
+      of the carrier insect.
+      What is a zoonotic disease? A disease that is vectored to people from 
+      animals. What do you find in a zoo?
+      What does CDC and WHO stand for? Centers for Disease Control and 
+      Prevention World Health Organization (under the United Nations control) 
+      there's a hidden letter in the CDC title (P stands for...)
+      What is a pandemic? it is a world-wide or continent wide epidemic of a 
+      disease Think of the world in a frying pan...

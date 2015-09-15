@@ -1,0 +1,19 @@
+audioproxy_0_0_2.lnx.zip
+--------------------------
+
+author
+------
+
+built by jeffo@horizonlive.com on 2005-03-02
+
+bug report
+----------
+
+build info
+----------
+
+data/audioproxy
+	- compiled on ( dyn221 ) jeffo's emac using gcc v3.3
+	- sources in hms/audioagent ( horizon ), iaxclient ( sourceforge )
+	- cvs tag *none*
+	

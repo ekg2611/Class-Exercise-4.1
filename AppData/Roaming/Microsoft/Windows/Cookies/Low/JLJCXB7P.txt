@@ -1,0 +1,9 @@
+tp_subtitles_settings
+%7B%22subtitleStyle%22%3A%7B%22regionBackgroundColor%22%3Anull%7D%2C%20%22subtitleLanguage%22%3Anull%7D
+vplayer.nbcsports.com/
+1088
+4243697792
+31197673
+214112652
+30462932
+*

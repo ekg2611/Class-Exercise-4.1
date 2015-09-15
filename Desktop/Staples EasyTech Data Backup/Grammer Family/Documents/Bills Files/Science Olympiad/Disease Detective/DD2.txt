@@ -1,0 +1,50 @@
+Export FlashcardsQuestionAnswerHint
+      What does ASYMPTOMATIC mean? Without symptoms.  
+      What is a group of viruses called that are transmitted between hosts by 
+      misquiotoes, ticks and other anthropods? ARBOVIRUS  
+      What is a person called who harbors an infectious disease but shows no 
+      systems? CARRIER  
+      What is a the protein produced in the in response to an antigen called? 
+      ANTIBODY  
+      What is the first case of or instance of a patient coming to the attention 
+      of health authorities called? INDEX CASE  
+      What is a risk factor called? ATTRIBUTE  
+      Describe CHAIN OF INFECTION? The progression of an infectious agent from 
+      HOST to MODE OF TRANSMISSION and ENTRY to infect a susceptible host.  
+      What does BIMODAL mean? Having two data peaks in a chart.  
+      What is another name for the exposure to a source of infection? CONTACT  
+      Birth rates are measured per what? 1,000  
+      What is a DROPLET SPREAD? The direct transmission of an infectious agent 
+      by coughing, sneezing or talking before dropping to the ground.  
+      What is a TRIAD? The three components of a disease - AGENT, HOST and the 
+      MODE OF TRANSMISSION.  
+      What ACT is 1996 was established to keep a persons health information 
+      private? HIPAA  
+      What is the study of diseases called? EPIDEMIOLOGY  
+      What is the difference between ISOLATION and QUARANTINE? Isolation is 
+      separation of an infected person to prevent transmission to suceptible 
+      ones and quanrantine referes to separation of potentially exposed but well 
+      persons.  
+      What is the term for coming in comtact with the cause of a disease called? 
+      EXPOSURE  
+      What is the NCHS? National Center for Health Statistics.  
+      What is a term for an inanimate object such as bedding, towels or surgical 
+      instruments that could tranmit an infectious agent? FOMITE  
+      What term describes a more localized epidemic and does not usually promote 
+      public panic? OUTBREAK  
+      What is a HIGH RISK GROUP? A group of persons who have a higher risk of 
+      disease than the rest of the population.  
+      What is the habitat called for an infectious agent? RESERVOIR  
+      What is a SPOT MAP? A visual display of a geographic pattern of a health 
+      problem, in which a marker is placed on a map to indicate where each 
+      affected person lives, works or might have been exposed.  
+      Explain AIRBORNE, DIRECT, VEHICLEBORNE, and VECTORBORNE Transmission of an 
+      agent? Agent is SUSPENDED FROM THE AIR (indirect), Immediate transfer by 
+      direct contact or droplet spread, transfer by an inanimate object 
+      (foodborne & waterborne), Indirect transfer by a carrier (tick, flea)etc.  
+
+      What does SUBCLINICAL mean? Without apparent symptoms.  
+      What is the collection of information called? SURVEY  
+      What is the indication of a disease by a patient called? SYMPTOM  
+      What is the word used for a health condition without a clear cause? 
+      SYNDROME  

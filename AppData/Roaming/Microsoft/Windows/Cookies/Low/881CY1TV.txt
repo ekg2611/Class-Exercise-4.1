@@ -1,0 +1,54 @@
+_sdsat_Marketing: Campaign TrackingID (v27)
+AS_altlp2_15326_34543_2010
+download.driversupport.com/
+1600
+4149690496
+30609549
+102634180
+30462699
+*
+_sdsat_Marketing: Campaign Source (v21)
+AS
+download.driversupport.com/
+1600
+4149690496
+30609549
+102674182
+30462699
+*
+_sdsat_Marketing: Campaign Name (v25)
+campaign_15326
+download.driversupport.com/
+1600
+4149690496
+30609549
+102694183
+30462699
+*
+_sdsat_Marketing: Campaign Medium (v22)
+placement_34543
+download.driversupport.com/
+1600
+4149690496
+30609549
+102724185
+30462699
+*
+_sdsat_Marketing: Campaign Content (v23)
+site_2010
+download.driversupport.com/
+1600
+4149690496
+30609549
+102744186
+30462699
+*
+__ar_v4
+ID6YJCUG4BA7BHFUIYCHOX%3A20150716%3A3%7CMJDFCCTA3JETLDLZWCFYDD%3A20150716%3A3%7CIBURATUZTNHBFDLWQBB66R%3A20150716%3A3
+download.driversupport.com/
+1600
+788190976
+30881794
+108564519
+30462699
+*

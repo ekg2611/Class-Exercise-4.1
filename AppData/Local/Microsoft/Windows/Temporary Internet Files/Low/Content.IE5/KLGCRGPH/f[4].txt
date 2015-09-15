@@ -1,0 +1,107 @@
+{
+(function(){var g=this,l=function(a,b){var c=a.split("."),d=g;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)c.length||void 0===b?d=d[e]?d[e]:d[e]={}:d[e]=b},m=function(a,b,c){return a.call.apply(a.bind,arguments)},n=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},p=function(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?m:n;return p.apply(null,arguments)},q=Date.now||function(){return+new Date};var r=document,s=window;var t=function(a,b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(null,a[c],c,a)},w=function(a,b){a.google_image_requests||(a.google_image_requests=[]);var c=a.document.createElement("img");c.src=b;a.google_image_requests.push(c)};var x=function(a){return{visible:1,hidden:2,prerender:3,preview:4}[a.webkitVisibilityState||a.mozVisibilityState||a.visibilityState||""]||0},y=function(a){var b;a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState?b="webkitvisibilitychange":a.visibilityState&&(b="visibilitychange");return b};var C=function(){this.g=r;this.k=s;this.j=!1;this.i=null;this.h=[];this.o={};if(z)this.i=q();else if(3==x(this.g)){this.i=q();var a=p(this.q,this);A&&(a=A("di::vch",a));this.p=a;var b=this.g,c=y(this.g);b.addEventListener?b.addEventListener(c,a,!1):b.attachEvent&&b.attachEvent("on"+c,a)}else B(this)},A;C.m=function(){return C.n?C.n:C.n=new C};var D=/^([^:]+:\/\/[^/]+)/m,G=/^\d*,(.+)$/m,z=!1,B=function(a){if(!a.j){a.j=!0;for(var b=0;b<a.h.length;++b)a.l.apply(a,a.h[b]);a.h=[]}};C.prototype.s=function(a,b){var c=b.target.u();(c=G.exec(c))&&(this.o[a]=c[1])};C.prototype.l=function(a,b){this.k.rvdt=this.i?q()-this.i:0;var c;if(c=this.t)t:{try{var d=D.exec(this.k.location.href),e=D.exec(a);if(d&&e&&d[1]==e[1]&&b){var f=p(this.s,this,b);this.t(a,f);c=!0;break t}}catch(u){}c=!1}c||w(this.k,a)};C.prototype.q=function(){if(3!=x(this.g)){B(this);var a=this.g,b=y(this.g),c=this.p;a.removeEventListener?a.removeEventListener(b,c,!1):a.detachEvent&&a.detachEvent("on"+b,c)}};var H=/^true$/.test("")?!0:!1;var I={},J=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(e){b=c}}return b},M=function(a,b,c,d){var e=K,f,u=!0;try{f=b()}catch(h){try{var N=J(h);b="";h.fileName&&(b=h.fileName);var E=-1;h.lineNumber&&(E=h.lineNumber);var v;t:{try{v=c?c():"";break t}catch(S){}v=""}u=e(a,N,b,E,v)}catch(k){try{var O=J(k);a="";k.fileName&&(a=k.fileName);c=-1;k.lineNumber&&(c=k.lineNumber);K("pAR",O,a,c,void 0,void 0)}catch(F){L({context:"mRE",msg:F.toString()+"\n"+(F.stack||"")},void 0)}}if(!u)throw h;}finally{if(d)try{d()}catch(T){}}return f},K=function(a,b,c,d,e,f){a={context:a,msg:b.substring(0,512),eid:e&&e.substring(0,40),file:c,line:d.toString(),url:r.URL.substring(0,512),ref:r.referrer.substring(0,512)};P(a);L(a,f);return!0},L=function(a,b){try{if(Math.random()<(b||.01)){var c="/pagead/gen_204?id=jserror"+Q(a),d="http"+("https:"==s.location.protocol?"s":"")+"://pagead2.googlesyndication.com"+c,d=d.substring(0,2E3);w(s,d)}}catch(e){}},P=function(a){var b=a||{};t(I,function(a,d){b[d]=s[a]})},R=function(a,b,c,d,e){return function(){var f=arguments;return M(a,function(){return b.apply(c,f)},d,e)}},Q=function(a){var b="";t(a,function(a,d){if(0===a||a)b+="&"+d+"="+("function"==typeof encodeURIComponent?encodeURIComponent(a):escape(a))});return b};A=function(a,b,c,d){return R(a,b,void 0,c,d)};z=H;l("vu",R("vu",function(a,b){var c=a.replace("&amp;","&"),d=/(google|doubleclick).*\/pagead\/adview/.test(c),e=C.m();if(d){d="&vis="+x(e.g);b&&(d+="&ve=1");var f=c.indexOf("&adurl"),c=-1==f?c+d:c.substring(0,f)+d+c.substring(f)}e.j?e.l(c,b):e.h.push([c,b])}));l("vv",R("vv",function(){z&&B(C.m())}));})();
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "https://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ&amp;num=1&amp;sig=AOD64_3Ku2KFr5YsKqQkQlJ0ZnzPp3GoDA&amp;ctype=21&amp;video_id=JbDuvUfRNRU&amp;client=ca-pub-6219811747049371&amp;adurl=http://www.youtube.com/watch%3Fv%3DJbDuvUfRNRU"; 
+google_ad.visible_url = "youtube.com/garminblog"; 
+google_ad.duration = 31000;
+google_ad.log_info = "B-2TR09GdVcvbGdWM3AGs2JawBQCEr57B-QEAABABOAHIAQGgBhrCEwMQgAE";
+google_ad.activeview_cid = "5GhP1W7FPv9faG4fKPAkpDQ3LDI";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_js_tos_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Garmin Approach\x26#174; S6"; 
+google_ad.line2 = "First-of-its Kind GPS Technology In"; 
+google_ad.line3 = "Our Slimmest, Lightest Golf Watch."; 
+google_ad.regionname = ""; 
+google_ad.media_template_data = [ 
+{ 
+"destinationPage" : "1", 
+"description2" : "Our Slimmest, Lightest Golf Watch.", 
+"description1" : "First-of-its Kind GPS Technology In", 
+"videoThumbnail" : "0", 
+"channelName" : "garminblog", 
+"headline" : "Garmin Approach® S6", 
+"videoId" : "JbDuvUfRNRU", 
+"imageUrl" : "http://i2.ytimg.com/vi/JbDuvUfRNRU/default.jpg" 
+} 
+]; 
+google_ad.engaged_view_url = "https://googleads.g.doubleclick.net/aclk?sa\x3dl\x26ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26num\x3d1\x26sig\x3dAOD64_3Ku2KFr5YsKqQkQlJ0ZnzPp3GoDA\x26ctype\x3d18\x26video_id\x3dJbDuvUfRNRU\x26client\x3dca-pub-6219811747049371\x26adurl\x3dhttp://www.youtube.com/watch%3Fv%3DJbDuvUfRNRU"; 
+google_ad.conversion_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4"; 
+google_ad.view_url = "https://googleads.g.doubleclick.net/pagead/adview?ai\x3dCDUeX09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpiAW8g9uFAZIFBggDEAEYAaAGGsgG_KDEovkBgAec2YAvqAemvhvYBwHCEwYYzKb_0AM\x26sigh\x3dmsbRFRmQPyM\x26template_id\x3d232"; 
+google_ad.checked_events = ""; 
+google_ad.mute_gone = "It\x27s gone."; 
+google_ad.mute_question = "What was wrong with this ad?"; 
+google_ad.mute_undo = "Undo"; 
+google_ad.mute_hover_text = "Stop seeing this ad"; 
+google_ad.mute_interaction_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3duser_feedback_menu_interaction\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE"; 
+google_ad.mute_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3duser_feedback_menu_option\x26label_instance\x3d1\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE"; 
+google_ad.mute_undo_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3duser_feedback_undo\x26label_instance\x3d1\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE"; 
+google_ad.mute_survey = {"Inappropriate" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3dmute_survey_option\x26label_instance\x3d8\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE", 
+"Irrelevant" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3dmute_survey_option\x26label_instance\x3d7\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE", 
+"Repetitive" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ\x26sigh\x3dupOs3V3mVV4\x26label\x3dmute_survey_option\x26label_instance\x3d2\x26cbt\x3dvUHwAKZor78IhK-ewfkBELyD24UBGIyn6C8iFnlvdXR1YmUuY29tL2dhcm1pbmJsb2cyCAgFExjxoAoUOJXqxL7U17vYJUIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIBlgaYOgBaLKK1fMBcAE" 
+}; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "https://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Cu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ&amp;num=2&amp;sig=AOD64_201AshzuLPA7nu9leQRvIQ0Scg7g&amp;ctype=21&amp;video_id=Y1F-3RqZioU&amp;client=ca-pub-6219811747049371&amp;adurl=http://www.youtube.com/user/sixpackshortcuts%3Fv%3DY1F-3RqZioU"; 
+google_ad.visible_url = "youtube.com/user/sixpackshortcuts"; 
+google_ad.duration = 240000;
+google_ad.log_info = "B-2TR09GdVcvbGdWM3AGs2JawBQCEr57B-QEAABABOAHIAQGgBhrCEwMQgAE";
+google_ad.activeview_cid = "5GhP1W7FPv9faG4fKPAkpDQ3LDI";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_js_tos_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Men Must See This Review"; 
+google_ad.line2 = "Men of all ages are doing this 1"; 
+google_ad.line3 = "simple thing that drives women wild"; 
+google_ad.regionname = ""; 
+google_ad.media_template_data = [ 
+{ 
+"destinationPage" : "2", 
+"description2" : "simple thing that drives women wild", 
+"description1" : "Men of all ages are doing this 1", 
+"videoThumbnail" : "0", 
+"channelName" : "sixpackshortcuts", 
+"headline" : "Men Must See This Review", 
+"videoId" : "Y1F-3RqZioU", 
+"imageUrl" : "http://i2.ytimg.com/vi/Y1F-3RqZioU/default.jpg" 
+} 
+]; 
+google_ad.engaged_view_url = "https://googleads.g.doubleclick.net/aclk?sa\x3dl\x26ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26num\x3d2\x26sig\x3dAOD64_201AshzuLPA7nu9leQRvIQ0Scg7g\x26ctype\x3d18\x26video_id\x3dY1F-3RqZioU\x26client\x3dca-pub-6219811747049371\x26adurl\x3dhttp://www.youtube.com/user/sixpackshortcuts%3Fv%3DY1F-3RqZioU"; 
+google_ad.conversion_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0"; 
+google_ad.view_url = "https://googleads.g.doubleclick.net/pagead/adview?ai\x3dClIlY09GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWiAXjnJB5kgUGCAMQARgBoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAcITBhib1-jOAw\x26sigh\x3dz88G_SpVNKQ\x26template_id\x3d232"; 
+google_ad.checked_events = ""; 
+google_ad.mute_gone = "It\x27s gone."; 
+google_ad.mute_question = "What was wrong with this ad?"; 
+google_ad.mute_undo = "Undo"; 
+google_ad.mute_hover_text = "Stop seeing this ad"; 
+google_ad.mute_interaction_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3duser_feedback_menu_interaction\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB"; 
+google_ad.mute_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3duser_feedback_menu_option\x26label_instance\x3d1\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB"; 
+google_ad.mute_undo_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3duser_feedback_undo\x26label_instance\x3d1\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB"; 
+google_ad.mute_survey = {"Inappropriate" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3dmute_survey_option\x26label_instance\x3d8\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB", 
+"Irrelevant" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3dmute_survey_option\x26label_instance\x3d7\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB", 
+"Repetitive" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26sigh\x3ds-wohZvbWR0\x26label\x3dmute_survey_option\x26label_instance\x3d2\x26cbt\x3dxHgLZzuqYlQI09ez_agCEOOckHkY452mOiIheW91dHViZS5jb20vdXNlci9zaXhwYWNrc2hvcnRjdXRzMggIBRMYsbIVFDiFlebU0dvfqGNCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSAZYGmDoAWiyitXzAXAB" 
+}; 
+google_ads[1] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.youtube.com/results%253Fsearch_query%253Dr5%252520all%252520night%26gl%3DUS%26hl%3Den%26client%3Dca-pub-6219811747049371%26ai0%3DCtBlb09GdVcvbGdWM3AGs2JawBdTzsJoGhK-ewfkBrAIQASDj-5MDKAJgyYaAgOykgBCgAcym_9ADyAEBqAMBqgSVAU_QwOM20D3J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBB3Tj5qAT371tBFDjuY5P3gWaB_8b5wl3YA7G9U0f50r8G2F5AWTMeipMVLC7rstrxbxuSdg6mQpoAYayAb8oMSi-QGAB5zZgC-oB6a-G9gHAQ%26ai1%3DCu5a809GdVcvbGdWM3AGs2JawBevehOMG09ez_agCrAIQAiDj-5MDKAJgyYaAgOykgBCgAZvX6M4DyAEBqAMBqgSSAU_QgKs40D7J9G_0YqsYZduiEZ4rKORYiDV8JMs-54E3o_wX959kfjHqB4YsDL5fA4bMRamfLW5zVJIkKtX186CDkPD-GseHrCxfu1H9RR85hYBLuZzaOEG7MgTtBF3TiJKAwgcATUfQ2OY5H3gWrfUXimPKK3485tb1gp7qBC6VEEaDBOupBFHCW74tDxYSxIfWoAYayAbTm-jeqAKAB4urqDmoB6a-G9gHAQ\x26usg\x3dAFQjCNHxw5YZ36-6EhF-YjJkIUSMchnmEw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

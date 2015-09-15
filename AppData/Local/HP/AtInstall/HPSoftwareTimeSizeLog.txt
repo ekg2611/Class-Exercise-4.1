@@ -1,0 +1,27 @@
+
+
+Name	Size (KB)	Time (s)
+Startup		9
+HP Officejet Pro 8500 A910 Basic Device Software	229317	154
+HP Officejet Pro 8500 A910 Help	24996	30
+HP Officejet Pro 8500 A910 Product Improvement Study	7196	5
+HP Update	59	7
+I.R.I.S. OCR	70666	83
+Marketsplash Shortcuts	489	0
+Total		1650
+## Wait Time is calculated by subtracting the amount of time for each item from the total time.
+
+Name	Size (KB)	Time (s)
+Startup		5
+Total		344
+## Wait Time is calculated by subtracting the amount of time for each item from the total time.
+
+Name	Size (KB)	Time (s)
+Startup		21
+HP Officejet Pro 8630 Basic Device Software	209044	88
+Product Improvement Study for HP Officejet Pro 8630	9929	4
+HP Update	3724	9
+HP Officejet Pro 8630 Help	12416	5
+HP Smart Print	10445	1
+Total		1572
+## Wait Time is calculated by subtracting the amount of time for each item from the total time.

@@ -1,0 +1,9 @@
+ub_140
+bid=266767736435&uid=0&fvd=1437200086&lvd=1437200086&nov=1&ordAmt=0&lOrdDate=0&lOrdPids=0&rvPid=0&rvCid=65151796&sKw=0&cPid=0&cDt=0&cAmt=0&wlPids=0&wlDate=0&sId=843757746&mks=0&curr=USD&oId=0
+media.gsimedia.net/
+2147484752
+1032666240
+32469810
+425605659
+30458145
+*

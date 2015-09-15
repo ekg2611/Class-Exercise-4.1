@@ -1,0 +1,294 @@
+2015-04-23 14:16:50,530 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig installerContext: '15'
+2015-04-23 14:16:50,580 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig2 msiUtil: 'LiteralMsiUtilities'
+2015-04-23 14:16:50,580 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'WINDOWS_FIREWALL_CONFIG_PATH'
+2015-04-23 14:16:50,580 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs'
+2015-04-23 14:16:58,383 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig2 msiUtil: 'LiteralMsiUtilities' fi: 'WinFirewallRules.22246B61_3F9C_4003_A47E_640A8B464305'
+2015-04-23 14:16:58,393 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'CommonFilesFolder'
+2015-04-23 14:16:58,393 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Program Files (x86)\Common Files\'
+2015-04-23 14:16:58,393 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities, System.IO.FileInfo)
+2015-04-23 14:16:58,393 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities)
+2015-04-23 14:16:58,393 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig(UInt32)
+2015-04-23 14:17:13,005 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - CreateFirewallRules installerContext: '34'
+2015-04-23 14:17:13,025 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - CreateFirewallRules2 msiUtil: 'LiteralMsiUtilities'
+2015-04-23 14:17:13,035 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'CustomActionData'
+2015-04-23 14:17:13,035 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs,TurboTax 2014 WinPerReleaseEngine,{F2283AA1-869C-4497-8F18-09E36C67A014},'
+2015-04-23 14:17:13,035 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - CreateInstanceFromFile filePath: 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs\WinFirewallRules.22246B61_3F9C_4003_A47E_640A8B464305.fwml'
+2015-04-23 14:17:13,135 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - CreateInstance xmlConfig: '<?xml version="1.0" encoding="utf-8"?>
+<WindowsFirewall>
+  <WindowsFirewallV2Rules>
+    <WindowsFirewallV2Rule Id="Intuit Update v4 Shared Downloads Server">
+      <Name>Intuit Update v4 Shared Downloads Server</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <AuthorizedApplication>
+        <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      </AuthorizedApplication>
+      <Scope>
+        <NetworkScope>LocalSubnet</NetworkScope>
+      </Scope>
+    </WindowsFirewallV2Rule>
+  </WindowsFirewallV2Rules>
+  <WindowsFirewallAdvancedRules>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 (IntuitUpdater.exe-TCP-Out)">
+      <Name>Intuit Update v4 (IntuitUpdater.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled>true</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from IntuitUpdater.exe over TCP port 80 and 443</Description>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdater.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <RemotePorts>80,443</RemotePorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+        <Profile>Public</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 (IntuitUpdateService.exe-TCP-Out)">
+      <Name>Intuit Update v4 (IntuitUpdateService.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled>true</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over TCP port 80 and 443</Description>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <RemotePorts>80,443</RemotePorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+        <Profile>Public</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-In)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-In)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>In</Direction>
+      <Description>Allows inbound network traffic to the Intuit Update Service (IntuitUpdateService.exe) over TCP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-In)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-In)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>In</Direction>
+      <Description>Allows inbound network traffic to the Intuit Update Service (IntuitUpdateService.exe) over UDP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Udp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-Out)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over TCP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-Out)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over UDP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Udp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+  </WindowsFirewallAdvancedRules>
+</WindowsFirewall>'
+2015-04-23 14:17:13,345 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - Returning from: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall CreateInstance(System.String)
+2015-04-23 14:17:13,355 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - Returning from: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall CreateInstanceFromFile(System.String), return value: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall
+2015-04-23 14:17:14,375 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void CreateFirewallRules2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities)
+2015-04-23 14:17:14,375 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void CreateFirewallRules(UInt32)
+2015-05-12 11:43:29,280 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig installerContext: '15'
+2015-05-12 11:43:29,311 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig2 msiUtil: 'LiteralMsiUtilities'
+2015-05-12 11:43:29,311 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'WINDOWS_FIREWALL_CONFIG_PATH'
+2015-05-12 11:43:29,311 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs'
+2015-05-12 11:43:29,327 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - PreProcessFWConfig2 msiUtil: 'LiteralMsiUtilities' fi: 'WinFirewallRules.22246B61_3F9C_4003_A47E_640A8B464305'
+2015-05-12 11:43:29,327 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'CommonFilesFolder'
+2015-05-12 11:43:29,327 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Program Files (x86)\Common Files\'
+2015-05-12 11:43:29,327 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities, System.IO.FileInfo)
+2015-05-12 11:43:29,327 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities)
+2015-05-12 11:43:29,327 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void PreProcessFWConfig(UInt32)
+2015-05-12 11:43:37,095 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - CreateFirewallRules installerContext: '34'
+2015-05-12 11:43:37,127 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - CreateFirewallRules2 msiUtil: 'LiteralMsiUtilities'
+2015-05-12 11:43:37,127 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty propertyName: 'CustomActionData'
+2015-05-12 11:43:37,127 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.LiteralMsiUtilities (null) - MsiGetProperty returned 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs,TurboTax 2014 WinPerReleaseEngine,{F2283AA1-869C-4497-8F18-09E36C67A014},'
+2015-05-12 11:43:37,142 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - CreateInstanceFromFile filePath: 'C:\Users\Grammer\AppData\Local\Temp\{F2283AA1-869C-4497-8F18-09E36C67A014}.WindowsFirewallConfigs\WinFirewallRules.22246B61_3F9C_4003_A47E_640A8B464305.fwml'
+2015-05-12 11:43:37,158 [1] DEBUG Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - CreateInstance xmlConfig: '<?xml version="1.0" encoding="utf-8"?>
+<WindowsFirewall>
+  <WindowsFirewallV2Rules>
+    <WindowsFirewallV2Rule Id="Intuit Update v4 Shared Downloads Server">
+      <Name>Intuit Update v4 Shared Downloads Server</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <AuthorizedApplication>
+        <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      </AuthorizedApplication>
+      <Scope>
+        <NetworkScope>LocalSubnet</NetworkScope>
+      </Scope>
+    </WindowsFirewallV2Rule>
+  </WindowsFirewallV2Rules>
+  <WindowsFirewallAdvancedRules>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 (IntuitUpdater.exe-TCP-Out)">
+      <Name>Intuit Update v4 (IntuitUpdater.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled>true</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from IntuitUpdater.exe over TCP port 80 and 443</Description>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdater.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <RemotePorts>80,443</RemotePorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+        <Profile>Public</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 (IntuitUpdateService.exe-TCP-Out)">
+      <Name>Intuit Update v4 (IntuitUpdateService.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled>true</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over TCP port 80 and 443</Description>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <RemotePorts>80,443</RemotePorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+        <Profile>Public</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-In)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-In)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>In</Direction>
+      <Description>Allows inbound network traffic to the Intuit Update Service (IntuitUpdateService.exe) over TCP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-In)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-In)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>In</Direction>
+      <Description>Allows inbound network traffic to the Intuit Update Service (IntuitUpdateService.exe) over UDP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Udp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-Out)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-TCP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over TCP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Tcp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+    <WindowsFirewallAdvancedRule Id="Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-Out)">
+      <Name>Intuit Update v4 - Shared Downloads (IntuitUpdateService.exe-UDP-Out)</Name>
+      <Condition>true</Condition>
+      <Enabled OverrideUserSetting="false">false</Enabled>
+      <Direction>Out</Direction>
+      <Description>Allows outbound network traffic from the Intuit Update Service (IntuitUpdateService.exe) over UDP to support Shared Downloads functionality</Description>
+      <RemoteAddresses>LocalSubnet</RemoteAddresses>
+      <Grouping>@C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateServiceWin32Resources.dll,-102</Grouping>
+      <ProgramPath>C:\Program Files (x86)\Common Files\Intuit\Update Service v4\IntuitUpdateService.exe</ProgramPath>
+      <Protocol>Udp</Protocol>
+      <LocalPorts>
+      </LocalPorts>
+      <Profiles>
+        <Profile>Private</Profile>
+        <Profile>Domain</Profile>
+      </Profiles>
+      <Action>Allow</Action>
+    </WindowsFirewallAdvancedRule>
+  </WindowsFirewallAdvancedRules>
+</WindowsFirewall>'
+2015-05-12 11:43:37,205 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - Returning from: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall CreateInstance(System.String)
+2015-05-12 11:43:37,205 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall (null) - Returning from: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall CreateInstanceFromFile(System.String), return value: Intuit.Spc.Map.WindowsFirewallUtilities.Configuration.WindowsFirewall
+2015-05-12 11:43:37,392 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void CreateFirewallRules2(Intuit.Spc.Map.WindowsFirewallUtilities.MsiWrapper.MsiUtilities)
+2015-05-12 11:43:37,392 [1] INFO Intuit.Spc.Map.WindowsFirewallUtilities.Installer.WindowsFirewallException (null) - Returning from: Void CreateFirewallRules(UInt32)
