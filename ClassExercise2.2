@@ -1,0 +1,67 @@
+ * Email: ekg2611@email.vccs.edu
+ * 
+ *
+ */
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class ClassExercise22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte x;
+		short y;
+		int z;
+		long u;
+		
+		float v;
+		double w;
+		
+		char c;
+		
+		boolean status;
+		
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter a byte, a number between -128 and 127 : ");
+		x = keyboard.nextByte();
+		
+		System.out.println("Enter a short, a number between -32,768 and 32,767 : ");
+		y = keyboard.nextShort();
+		
+		System.out.println("Enter an integer, a number between -2,147,483,648 and 2,147,483,647 : ");
+		z = keyboard.nextInt();
+		
+		System.out.println("Enter a number that is a long : ");
+		u = keyboard.nextLong();
+		
+		System.out.println("Enter a number that is a float : ");
+		v = keyboard.nextFloat();
+		
+		System.out.println("Enter a number that is a double : ");
+		w = keyboard.nextDouble();
+		
+		System.out.println("Enter a char : ");
+		c = keyboard.next().charAt(0);
+		
+		System.out.println("Enter true or false : ");
+		status = keyboard.nextBoolean();
+		
+		JOptionPane.showMessageDialog(null,"Values for data types entered " + "\n"
+			+ "byte = "  + x + "\n"
+			+ "short = " + y + "\n"
+			+ "int = " + z + "\n"
+			+ "long = " + u + "\n"
+			+ "float = " + v + "\n"
+			+ "double = " + w + "\n"
+			+ "char = " + c + "\n"
+			+ "boolean = "  + status);
+		
+			
+		keyboard.close();
+		System.exit(0);
+
+	}
+
+}
