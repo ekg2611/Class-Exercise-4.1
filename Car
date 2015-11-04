@@ -1,0 +1,43 @@
+
+public class Car {
+	private String color;
+	private int horsePower;
+	private double engineSize;
+	
+	public Car(){
+		color = "red";
+		horsePower = 250;
+		engineSize = 5.0;
+		
+	}
+	 public Car(String color, int horsepower, double engineSize){
+		 this.color = color;
+		 this.horsePower = horsepower;
+		 this.engineSize = engineSize;
+		 
+	 }
+	 public void setcolor(String color){
+			this.color = color;
+		}
+		public String getcolor(){
+			return color;
+		}
+		
+		public void sethorsePower(int horsePower){
+			this.horsePower = horsePower;
+		}
+		public int gethorsePower(){
+			return horsePower;
+		}
+		
+		public void setengineSize(double engineSize){
+			this.engineSize = engineSize;
+		}
+		public double getengineSize(){
+			return engineSize;
+		}
+	
+		public String toString() {
+			return "The color of the car is " + this.color + " with a horse power of " + this.horsePower + " and an engine size of " + this.engineSize + " liters.";
+		}
+}
