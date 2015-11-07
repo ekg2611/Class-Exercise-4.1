@@ -1,0 +1,35 @@
+/**
+ * author: Emma Grammer
+ * date: 11/06/2015
+ * email: ekg2611@email.vccs.edu
+ */
+import javax.swing.JOptionPane;
+
+public class ClassExercise23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		double inches;
+		double feet;
+		int feetint;
+		int remainder;
+	
+		double heightCM = Double.parseDouble(JOptionPane.showInputDialog("Enter your height in centimeters")); 
+		
+		inches = heightCM * 0.39 ;
+		feet = inches/12;
+		feetint = (int)feet;
+		remainder = (int)((feet - feetint)*12);
+		
+		JOptionPane.showMessageDialog(null, "Centimeters = " + heightCM + "\n" + "Inches = " + inches + "\n" + "Height = " + feetint + " feet " + remainder + " inches");
+		
+		System.exit(0);
+		
+		
+		
+		
+	}
+
+}
