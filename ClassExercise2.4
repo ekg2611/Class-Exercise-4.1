@@ -1,0 +1,112 @@
+/**
+ * author: Emma Grammer
+ * date: 11/06/2015
+ * email: ekg2611@email.vccs.edu
+ */
+package ClassExercise2;
+
+public class ClassExercise24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "My favorite TV show is " ; 
+		String s2 = "Scorpion";
+		String s3 = "Scorpion";
+		String s4 = "ScOrPiOn";
+		String s5 = "Dance party";
+		String s6 = "Northern Virgina Community College";
+		String s7 = "Happy Quinn";
+		String s8 = "                              Toby Curtis";
+		String s9 = "Scorpion is my favorite show";
+		String s10 = "BUBBLES BLOSSOM BUTTERCUP";
+		String s11 = "teen titans";
+		String substring1 = "Virginia";
+		String substring2 = "VA";
+		
+		System.out.println("This demomtsrates: charAt"); 
+		System.out.println("=============================");
+		System.out.println("The character is: " + s2.charAt(0) + " at s2.charAt(0)");
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: concat(a_string)");
+		System.out.println("======================================");
+		System.out.println("The first string is '" + s1 + "'.");
+		System.out.println("The second string is '" + s2 + "'.");
+		System.out.println("Concatinating the two strings gives us: " + s1.concat(s2));
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: equals(a_string)");
+		System.out.println("===========================================");
+		if (s2.equals(s3))
+			System.out.println(s2 + " is equal to " + s3);
+		else
+			System.out.println(s2 + " is  not equal to " + s3);
+		if (s2.equals(s5))
+			System.out.println(s2 + " is equal to " + s5);
+		else 
+			System.out.println(s2 + " is  not equal to " + s5);
+			
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: equalsIgnoreCase(a_string)");
+		System.out.println("===============================================");
+		if (s2.equalsIgnoreCase(s4))
+			System.out.println(s2 + " is equal to " + s4);
+		else
+			System.out.println(s2 + " is  not equal to " + s4);
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: indexOf(a_string)");
+		System.out.println("======================================");
+		System.out.println("The first substring is: " + substring1);
+		System.out.println("The second substring is: " + substring2);
+		if (s6.indexOf(substring1) > 0)
+			System.out.println("The first substring is found in the string");
+		else
+			System.out.println("The first substring is not found in the string" );
+		if (s6.indexOf(substring2) > 0)
+			System.out.println("The second substring is found in the string");
+		else
+			System.out.println("The second substring is not found in the string" );
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: lastIndexOf (a_string)");
+		System.out.println("===========================================");
+		System.out.println("The last occurance of an 'n' in the string: " + s7 + " is position " + s7.lastIndexOf('n'));
+		System.out.println("The last occurance of an 'p' in the string: " + s7 + " is position " + s7.lastIndexOf('p'));
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: toLowerCae()");
+		System.out.println("====================================");
+		System.out.println("The string " + s10 + "is converted to lower case" + s10.toLowerCase());
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: toUpperCase()");
+		System.out.println("======================================");
+		System.out.println("The string " + s11 + "is converted to upper case" + s11.toUpperCase());
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: replace(oldChar,newChar)");
+		System.out.println("==============================================");
+		System.out.println("Replace all 'o' in the string: " + s9 + " with 'z' gives us" + s9.replace('o', 'z'));
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: substring(start)");
+		System.out.println("=======================================");
+		System.out.println("The substring of the string" + s6 + " from the start position of " + 18 + " is " + s6.substring(18));
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: substring(start,end)");
+		System.out.println("========================================");
+		System.out.println("The substring of the string" + s6 + " from the start position of " + 9 + " and ending at the position of" + 17 + " is " + s6.substring(9,17));
+		System.out.println("");
+		
+		System.out.println("This demomtsrates: trim()");
+		System.out.println("=============================");
+		System.out.println("String:" + s8);
+		System.out.println("String:" + s8.trim());
+		System.out.println("");
+
+	}
+
+}
