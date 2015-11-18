@@ -1,0 +1,54 @@
+
+public class ClassExercise42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 1;
+		System.out.println("The first 100 odd numbers");
+		System.out.println("---------------------------");
+		int remainder;
+		count = 1;
+		for(int odd = 1; odd <=200; odd++){
+			remainder = odd % 2;
+			if (remainder > 0) {
+				System.out.println("The number " + odd + " is the " + count + " odd number.");
+				count++;
+			}	
+			
+		}
+		System.out.println("");
+		System.out.println("The first 100 even numbers");
+		System.out.println("---------------------------");
+		
+		count = 1;
+		int even = 1;
+		do  {
+			remainder = even % 2;
+			if (remainder == 0) {
+				System.out.println("The number " + even + " is the " + count + " even number.");
+				count++;
+			}
+			even++;
+		}
+		while (count <= 100);
+		System.out.println("");
+		System.out.println("");
+		System.out.println("A Diamond Shape");
+		System.out.println("");
+		
+		count=1;
+		while (count <=5) {
+			if (count==1 || count == 5){
+				System.out.println("  * \n");
+			}
+			if (count==2 || count == 4) {
+				System.out.println(" *** \n");
+			}
+			if (count==3){
+			System.out.println("***** \n");
+			}
+			count++;
+		}
+		
+	}
+}
