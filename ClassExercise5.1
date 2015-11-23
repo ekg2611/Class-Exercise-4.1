@@ -1,0 +1,165 @@
+/**
+ * Author: Emma Grammer
+ * Class Exercise 5.1
+ * email: ekg2611@email.vccs.edu
+ * Date: 11/22/2015
+ */
+
+
+
+import java.util.Scanner;
+
+public class ClassExercise51 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("");
+		double baseNum = 6;
+		double power = 10;
+		System.out.println(baseNum + " to the 10th power is " + Math.pow(baseNum, power));
+		
+		System.out.println("");
+		int x = 15;
+		int y = 62;
+		System.out.println("If f(x)= x+y and x=" + x + " and y=" + y + " then x+y=" + f(x,y));
+		
+		System.out.println("");
+		int value = -22;
+		System.out.println("The absoute valuse of " + value + " is " + Math.abs(value));
+		
+		System.out.println("");
+		double baseNum2 = 8.0;
+		double power2 = 5.0;
+		System.out.println("The number " + baseNum2 + "to the " + power2 + " power is " + Math.pow(baseNum2, power2));
+		
+		System.out.println("");
+		double square = 25;
+		System.out.println("The square root of " + square + " is " + Math.sqrt(square));
+		
+		
+		
+		
+		output("************* h(int x) ***************");
+		output( (h(input())) );
+		
+	
+		output("\n");
+		output("************* f(int x, int y) ***************");
+		output(     f(input(), input()));
+		
+		output("************* g(x,y,z) = sqrt(x) + absolute(y) + z^^y ***************");
+		output("\t\t************* positive y ***************");
+		//output g(input1(), input1(), input1());
+		
+		double n1 = 2.0;
+		double n2 = 3.0;
+		double n3 = 4.0;
+		
+		System.out.println("g(" + n1 + " ," + n2 + " ," + n3 + ") is " + g(n1, n2, n3));
+		
+		output("\n");
+		output("************* g(x,y,z) = sqrt(x) + absolute(y) + z^^y ***************");
+		output("\t\t************* negative y ***************");
+			
+		double n4 = 2.0;
+		double n5 = -3.0;
+		double n6 = 4.0;
+		
+		System.out.println("g(" + n4 + " ," + n5 + " ," + n6 + ") is " + g(n4, n5, n6));		
+		
+		
+		
+		
+		
+		
+//		System.out.println("g( %f, %f, %f) is %f",  n1, n2, n3, g(n1, n2, n3));
+
+		
+	}
+	public static int h(int x){
+		return x*x*x*x*x*x*x*x*x*x;
+	}
+	public static void output(int x){
+		System.out.println("Answer: " + x);
+	}
+	
+	public static void output(double x){
+		System.out.println("Answer: " + x);
+	}
+	
+	public static void output(String s){
+		System.out.println(s);
+	}
+	
+	public static int input(){
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		return keyboard.nextInt();
+	}
+	
+	public static double input1(){
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		return keyboard.nextDouble();
+	}
+	
+	public static int f(int x, int y){
+		return x+y;
+	}
+	
+	public static int abs(int x){
+		if (x < 0)
+			x = x * -1;
+		return x;
+	}
+	
+	public static double abs(double x){
+		if (x < 0)
+			x = x * -1.0;
+		return x;
+	}
+
+	
+	
+	public static int z2yPwr(int z, int y){
+		int result = 1;
+		for (int count = 1; count <= y; count ++){
+			result = result * z;
+		}
+		if (y < 0)
+			result = (1/result);
+		System.out.print(result);
+		return result;
+			
+	}
+	
+	
+	public static double z2yPwr(double z, double y){
+		double result = 1.0;
+		for (int count = 1; count <= y; count ++){
+			result = result * z;
+		//	System.out.println("count" + count + "result" + result);
+		}
+		if (y < 0)
+			result = (1/result);
+		return result;
+			
+	}
+	public static double sqrt(double x){
+		double calcguess;
+		double guess = .0001;
+		do{
+			guess = guess + .0001;
+			calcguess = guess * guess;
+		}
+		while (calcguess <= x);
+		return guess;
+	}
+
+	public static double g(double x, double y, double z){
+		return  abs(y) + z2yPwr(z, y) + sqrt(x);
+	}
+		
+	
+}
